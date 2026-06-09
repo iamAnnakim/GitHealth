@@ -4,7 +4,7 @@ from scoring import beginner_friendly
 from visualization import draw_score_chart
 import os
 
-TOKEN = "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"
+TOKEN = "ghp_JWCBSLmV5ZU6cB2iiNlaAFxAyDrbLt3B88O"
 
 g = Github(TOKEN)
 
