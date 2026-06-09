@@ -35,6 +35,8 @@ The program retrieves:
 * Number of forks
 * Number of open issues
 * Primary programming language
+* README Documentation
+* License Information
 
 ### 2. Health Score Calculation
 
@@ -42,11 +44,13 @@ The project health score is calculated based on:
 
 | Category               | Maximum Score |
 | ---------------------- | ------------- |
-| Recent Commit Activity | 30            |
-| Contributors           | 20            |
-| Stars                  | 20            |
+| Recent Commit Activity | 25            |
+| Contributors           | 15            |
+| Stars                  | 15            |
 | Forks                  | 10            |
-| Issue Management       | 20            |
+| Issue Management       | 15            |
+| README Documentation   | 10            |
+| License Information    | 10            |
 | Total                  | 100           |
 
 ### 3. Grade Classification
@@ -93,7 +97,7 @@ The analysis result is automatically saved as a text report.
 ## Input Example
 
 ```text
-https://github.com/pallets/flask
+GitHub Repository URL: https://github.com/mvanhorn/last30days-skill.git
 ```
 
 ---
@@ -102,20 +106,39 @@ https://github.com/pallets/flask
 
 ```text
 ===== Repository Info =====
-
-Name: flask
-Owner: pallets
-Stars: 70000
-Forks: 16000
-Open Issues: 20
+Name: last30days-skill
+Owner: mvanhorn
+Stars: 34497
+Forks: 2820
+Open Issues: 123
 Language: Python
 
 ===== Health Analysis =====
+Health Score: 85 /100
+Grade: B
 
-Health Score: 95/100
-Grade: A
+===== Checklist =====
+✓ Recent Commit Activity
+✗ Contributors
+✓ Stars
+✓ Forks
+✗ Issues
+✓ Documentation (README)
+✓ License Information
 
-Beginner Friendly: YES
+Beginner Friendly: No
+
+===== Strengths =====
+✓ Active development (commit within 30 days)
+✓ Strong community interest (>= 10000)
+✓ Highly forked project (>= 1000)
+✓ README documentation available
+✓ License information available
+
+===== Weaknesses =====
+✗ Few contributors (>= 10)
+
+Report saved as last30days-skill_report.txt
 ```
 
 ---
